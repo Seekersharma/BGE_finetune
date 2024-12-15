@@ -1,0 +1,11 @@
+Security Code,Issuer Name,Security Id,Security Name,Status,Group,Face Value,ISIN No,Industry,Instrument,Sector Name,Industry New Name,Igroup Name,ISubgroup Name
+bitcoin,Bitcoin,BTC,Bitcoin,Active,Cryptocurrency,Not Applicable,Not Assigned,Blockchain Technology,Digital Asset,Decentralized Finance,Cryptocurrency,Crypto,Major Coins
+ethereum,Ethereum,ETH,Ethereum,Active,Cryptocurrency,Not Applicable,Not Assigned,Blockchain Technology,Digital Asset,Decentralized Finance,Cryptocurrency,Crypto,Major Coins
+ripple,XRP,XRP,XRP,Active,Cryptocurrency,Not Applicable,Not Assigned,Blockchain Technology,Digital Asset,Decentralized Finance,Cryptocurrency,Crypto,Major Coins
+tether,Tether,USDT,Tether,Active,Cryptocurrency,Not Applicable,Not Assigned,Blockchain Technology,Digital Asset,Decentralized Finance,Cryptocurrency,Crypto,Major Coins
+solana,Solana,SOL,Solana,Active,Cryptocurrency,Not Applicable,Not Assigned,Blockchain Technology,Digital Asset,Decentralized Finance,Cryptocurrency,Crypto,Major Coins
+binancecoin,BNB,BNB,BNB,Active,Cryptocurrency,Not Applicable,Not Assigned,Blockchain Technology,Digital Asset,Decentralized Finance,Cryptocurrency,Crypto,Major Coins
+dogecoin,Dogecoin,DOGE,Dogecoin,Active,Cryptocurrency,Not Applicable,Not Assigned,Blockchain Technology,Digital Asset,Decentralized Finance,Cryptocurrency,Crypto,Major Coins
+cardano,Cardano,ADA,Cardano,Active,Cryptocurrency,Not Applicable,Not Assigned,Blockchain Technology,Digital Asset,Decentralized Finance,Cryptocurrency,Crypto,Major Coins
+usd-coin,USDC,USDC,USDC,Active,Cryptocurrency,Not Applicable,Not Assigned,Blockchain Technology,Digital Asset,Decentralized Finance,Cryptocurrency,Crypto,Major Coins
+staked-ether,Lido Staked Ether,STETH,Lido Staked Ether,Active,Cryptocurrency,Not Applicable,Not Assigned,Blockchain Technology,Digital Asset,Decentralized Finance,Cryptocurrency,Crypto,Major Coins

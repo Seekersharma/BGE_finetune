@@ -1,0 +1,201 @@
+{
+	"info": {
+		"_postman_id": "16569f06-80f9-42ee-9914-6cd444238907",
+		"name": "CryptoAPIs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "16925087"
+	},
+	"item": [
+		{
+			"name": "CoinGecko",
+			"item": [
+				{
+					"name": "coin_gecko",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd",
+							"protocol": "https",
+							"host": [
+								"api",
+								"coingecko",
+								"com"
+							],
+							"path": [
+								"api",
+								"v3",
+								"simple",
+								"price"
+							],
+							"query": [
+								{
+									"key": "ids",
+									"value": "bitcoin"
+								},
+								{
+									"key": "vs_currencies",
+									"value": "usd"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Binance",
+			"item": [
+				{
+					"name": "bitcoin_current_price",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://api.binance.com/api/v3/ticker/price?symbol=BTCUSDT",
+							"protocol": "https",
+							"host": [
+								"api",
+								"binance",
+								"com"
+							],
+							"path": [
+								"api",
+								"v3",
+								"ticker",
+								"price"
+							],
+							"query": [
+								{
+									"key": "symbol",
+									"value": "BTCUSDT"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "bitcoin_time_range_data",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://api.binance.com/api/v3/klines?symbol=BTCUSDT&interval=1h&startTime=1698364800000&endTime=1698451200000",
+							"protocol": "https",
+							"host": [
+								"api",
+								"binance",
+								"com"
+							],
+							"path": [
+								"api",
+								"v3",
+								"klines"
+							],
+							"query": [
+								{
+									"key": "symbol",
+									"value": "BTCUSDT"
+								},
+								{
+									"key": "interval",
+									"value": "1h"
+								},
+								{
+									"key": "startTime",
+									"value": "1698364800000"
+								},
+								{
+									"key": "endTime",
+									"value": "1698451200000"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "coinbase",
+			"item": [
+				{
+					"name": "bitcoin_current_usd",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://api.coinbase.com/v2/prices/spot?currency=USD",
+							"protocol": "https",
+							"host": [
+								"api",
+								"coinbase",
+								"com"
+							],
+							"path": [
+								"v2",
+								"prices",
+								"spot"
+							],
+							"query": [
+								{
+									"key": "currency",
+									"value": "USD"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "yahoo_finance",
+			"item": [
+				{
+					"name": "get_time_range_btc_data",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "/stock_data",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:5000/crypto/historical?symbol=BTCUSDT&period=1&periodType=days",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"crypto",
+						"historical"
+					],
+					"query": [
+						{
+							"key": "symbol",
+							"value": "BTCUSDT"
+						},
+						{
+							"key": "period",
+							"value": "1"
+						},
+						{
+							"key": "periodType",
+							"value": "days"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
